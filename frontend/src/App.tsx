@@ -1,10 +1,15 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Navbar from 'components/Navbar';
 
-function App() {
+// expressão function App () {
+//expressão lambida const App = () => {
+const App = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar />
+    </>
   );
-}
+};
 
 export default App;
